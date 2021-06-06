@@ -22,6 +22,7 @@ public class PlayerController : MonoBehaviour
     public float velocitdad;
     public float velocitySalto;
     public bool EstadoMovimientoBara;
+    private bool isCheckGround;
 
     private Rigidbody2D rb;
     
@@ -67,9 +68,13 @@ public class PlayerController : MonoBehaviour
                 anim.SetBool("EstaCorriendo",movimiento);
 
             }
-            if(Input.GetKey("space")){
+            if(Input.GetKey("space") && isCheckGround){
                 rb.velocity = new Vector2(rb.velocity.x,velocitySalto);
+                anim.SetBool("EstaSaltando",isCheckGround);
             }
+
+
+
             if(Input.GetKey("f") && PuntoActivoGlobal.obj.dentroRango){                
                 if(EstadoMovimientoBara==false){
                     EstadoMovimientoBara = true;
@@ -83,6 +88,12 @@ public class PlayerController : MonoBehaviour
                     Elevador.obj.activarMovimiento = true;
                 }
                  
+            }
+
+            //-----------------------
+            if(isCheckGround == false){
+                anim.SetBool("EstaSaltando",isCheckGround);
+                //Debug.Log("piso");
             }
 
 
@@ -117,6 +128,22 @@ public class PlayerController : MonoBehaviour
         
         transform.localScale =xscalar;
 
+    }
+
+    private void OnTriggerEnter2D(Collider2D collision){
+        if(collision.CompareTag("suelo")){
+            isCheckGround = true;  
+            //Debug.Log("piso0");
+        }
+        //Debug.Log("piso0");
+        //Debug.Log(collision );
+    }
+
+    private void OnTriggerExit2D(Collider2D collision){
+        if(collision.CompareTag("suelo")){
+            isCheckGround = false;  
+            //Debug.Log("piso1");
+        }
     }
 
 

@@ -9,6 +9,7 @@ public class EnSeguimientoPlayer : MonoBehaviour
     Vector3 initialPosition;
     GameObject Player;
     Rigidbody2D rb;
+    public GameObject pj;
 
     //
     private float movHorizontanl;
@@ -24,6 +25,7 @@ public class EnSeguimientoPlayer : MonoBehaviour
     public float radioAtaque;
 
     Vector3 target;
+    Animator anim;
 
 
     private void Awake(){ //primera funcion
@@ -36,6 +38,7 @@ public class EnSeguimientoPlayer : MonoBehaviour
         rb = GetComponent<Rigidbody2D>();
         initialPosition = transform.position;
         target = initialPosition;
+        anim = pj.GetComponent<Animator>();
     }
 
     void Update()
@@ -48,6 +51,8 @@ public class EnSeguimientoPlayer : MonoBehaviour
         movHorizontanl = Input.GetAxisRaw("Horizontal");
         //movVertical = Input.GetAxisRaw("Vertical");
         movimiento =(movHorizontanl !=0f);
+
+            flip(movHorizontanl);//mover izquierda derecha y escala
 
         //por defecto el enemigo volvera a su posicion inicial cuando no este en persecucion del player
 
@@ -85,7 +90,8 @@ public class EnSeguimientoPlayer : MonoBehaviour
 
         }else{
             rb.MovePosition(transform.position + dir * velocidad * Time.deltaTime);
-             
+            anim.SetBool("EstaCorriendo",movimiento);
+            //anim.SetBool("EstaCorriendo",movimiento); 
             //al movernos establecemos la animacion de movimiento
            // anim.speed = 1;
 
@@ -110,6 +116,9 @@ public class EnSeguimientoPlayer : MonoBehaviour
         Debug.DrawLine(transform.position, target, Color.green);
 
 
+
+
+
      }
 
 
@@ -126,6 +135,7 @@ public class EnSeguimientoPlayer : MonoBehaviour
     {
         return Vector3.Distance(transform.position, Player.transform.position) <= range;
     }*/
+
 
 
 
