@@ -7,6 +7,7 @@ using UnityEngine.SceneManagement;
 public class PlayerController : MonoBehaviour
 {
     public static PlayerController obj;
+    public GameObject pj;
     private float movHorizontanl;
     private float movVertical;
 
@@ -24,7 +25,7 @@ public class PlayerController : MonoBehaviour
 
     private Rigidbody2D rb;
     
-    //Animator anim;
+    Animator anim;
 
 
     private void Awake(){ //primera funcion
@@ -34,7 +35,7 @@ public class PlayerController : MonoBehaviour
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
-       // anim = GetComponent<Animator>();
+        anim = pj.GetComponent<Animator>();
     }
 
     void Update()
@@ -48,12 +49,23 @@ public class PlayerController : MonoBehaviour
         if(EstadoMovimientoBara == false){
             if(Input.GetKey("d") || Input.GetKey("right")){
             rb.velocity = new Vector2(velocitdad,rb.velocity.y);
+            movimiento =true;
+            MovimientoPlayer();
+            anim.SetBool("EstaCorriendo",movimiento);
+            
+
             }
             else if(Input.GetKey("a") || Input.GetKey("left")){
                 rb.velocity = new Vector2(-velocitdad,rb.velocity.y);
+                movimiento =true;
+                anim.SetBool("EstaCorriendo",movimiento);
+                MovimientoPlayer();
             }
             else{
                 rb.velocity = new Vector2(rb.velocity.x,rb.velocity.y);
+                movimiento = false;
+                anim.SetBool("EstaCorriendo",movimiento);
+
             }
             if(Input.GetKey("space")){
                 rb.velocity = new Vector2(rb.velocity.x,velocitySalto);
@@ -84,7 +96,7 @@ public class PlayerController : MonoBehaviour
 
     void MovimientoPlayer(){
         movHorizontanl = Input.GetAxisRaw("Horizontal");
-        movVertical = Input.GetAxisRaw("Vertical");
+        //movVertical = Input.GetAxisRaw("Vertical");
         movimiento =(movHorizontanl !=0f);
 
         flip(movHorizontanl);//mover izquierda derecha y escala

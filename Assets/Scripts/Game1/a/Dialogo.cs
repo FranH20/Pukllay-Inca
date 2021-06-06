@@ -6,7 +6,7 @@ using UnityEngine;
 public class Dialogo
 {
     public string name;
-    [TextArea(3,10)]
+    [TextArea(5,15)]
     public string []sentenciaList;
 
 
