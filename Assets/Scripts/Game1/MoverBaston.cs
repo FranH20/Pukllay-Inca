@@ -31,9 +31,9 @@ public class MoverBaston : MonoBehaviour
         step = speed * Time.deltaTime;
         //positionBaraPlayer=baston.transform.position;
     }
-     void Update() {
-         
-         if(ActivarMovimiento0){
+
+    void FixedUpdate(){
+        if(ActivarMovimiento0){
             switch (puntoActual)
             {
             case 1:
@@ -89,8 +89,15 @@ public class MoverBaston : MonoBehaviour
                 Bara.transform.rotation = Quaternion.Euler(0,0,45f);
                 PlayerController.obj.EstadoMovimientoBara=false;
                 Debug.Log("regresar a Player bara");
+                
             }
          }
+    }
+
+
+     void Update() {
+         
+         
          
      }
 
@@ -104,6 +111,7 @@ public class MoverBaston : MonoBehaviour
         yield return new WaitForSeconds(2.3f);
         //Destroy(Particulas1,1.2f);
         regresarPlayer=true;
+        ActivarBackGoundF.activarMovimiento = true;
         StopCoroutine(EsperarTiempoBaraSuelo());
     }
 

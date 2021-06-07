@@ -1,0 +1,1068 @@
+fileFormatVersion: 2
+guid: ef7936b4ecfef42d59495379f94fb653
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 172068557502480610
+    second: orotile_0
+  - first:
+      213: 1310504812811942429
+    second: orotile_1
+  - first:
+      213: 1713611768985742844
+    second: orotile_2
+  - first:
+      213: -5380307035617406745
+    second: orotile_3
+  - first:
+      213: -966776417844036437
+    second: orotile_4
+  - first:
+      213: 1446773140335527324
+    second: orotile_5
+  - first:
+      213: -2567169173416635412
+    second: orotile_6
+  - first:
+      213: 7085931091642751340
+    second: orotile_7
+  - first:
+      213: 4803077596708561149
+    second: orotile_8
+  - first:
+      213: 7787682989894641785
+    second: orotile_9
+  - first:
+      213: -4224919232359343955
+    second: orotile_10
+  - first:
+      213: 661556223964488005
+    second: orotile_11
+  - first:
+      213: 5724506296093110782
+    second: orotile_12
+  - first:
+      213: 5811532629619332919
+    second: orotile_13
+  - first:
+      213: -6284828160811880496
+    second: orotile_14
+  - first:
+      213: -8996553926208909809
+    second: orotile_15
+  - first:
+      213: -5540046570337024768
+    second: orotile_16
+  - first:
+      213: 2532406644270290141
+    second: orotile_17
+  - first:
+      213: -686135535954145902
+    second: orotile_18
+  - first:
+      213: 4435336544513386415
+    second: orotile_19
+  - first:
+      213: 668779918258140727
+    second: orotile_20
+  - first:
+      213: 7298063813254936120
+    second: orotile_21
+  - first:
+      213: -8537673364324689666
+    second: orotile_22
+  - first:
+      213: -4363030459748298085
+    second: orotile_23
+  - first:
+      213: -7173945558365943912
+    second: orotile_24
+  - first:
+      213: -8354603229977486054
+    second: orotile_25
+  - first:
+      213: -6075455139861043270
+    second: orotile_26
+  - first:
+      213: 2579842046064032628
+    second: orotile_27
+  - first:
+      213: -1135371038015314289
+    second: orotile_28
+  - first:
+      213: -7643912458192958636
+    second: orotile_29
+  - first:
+      213: 2686211318665108060
+    second: orotile_30
+  - first:
+      213: -3726176533497682611
+    second: orotile_31
+  - first:
+      213: -4301697795323765010
+    second: orotile_32
+  - first:
+      213: -655097695966735394
+    second: orotile_33
+  - first:
+      213: -5062670807403422946
+    second: orotile_34
+  - first:
+      213: -3422418679287925833
+    second: orotile_35
+  - first:
+      213: 266930542876490457
+    second: orotile_36
+  - first:
+      213: -7693494439118242201
+    second: orotile_37
+  - first:
+      213: 4934551776944505314
+    second: orotile_38
+  - first:
+      213: 1713710495098411629
+    second: orotile_39
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: orotile_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1459
+        width: 185
+        height: 185
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e003fef07f436200800000000000000
+      internalID: 172068557502480610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orotile_1
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 1459
+        width: 185
+        height: 185
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1a78141f29df2210800000000000000
+      internalID: 1310504812811942429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orotile_2
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 1459
+        width: 185
+        height: 185
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfde25523d8f7c710800000000000000
+      internalID: 1713611768985742844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orotile_3
+      rect:
+        serializedVersion: 2
+        x: 555
+        y: 1459
+        width: 185
+        height: 185
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e05d77d14f4555b0800000000000000
+      internalID: -5380307035617406745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orotile_4
+      rect:
+        serializedVersion: 2
+        x: 740
+        y: 1459
+        width: 185
+        height: 185
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bac7e2d58f15592f0800000000000000
+      internalID: -966776417844036437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orotile_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1274
+        width: 185
+        height: 185
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c95864c7188f31410800000000000000
+      internalID: 1446773140335527324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orotile_6
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 1274
+        width: 185
+        height: 185
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce31b2cfc359f5cd0800000000000000
+      internalID: -2567169173416635412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orotile_7
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 1274
+        width: 185
+        height: 185
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c691344f8c8465260800000000000000
+      internalID: 7085931091642751340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orotile_8
+      rect:
+        serializedVersion: 2
+        x: 555
+        y: 1274
+        width: 185
+        height: 185
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df0637c50a5f7a240800000000000000
+      internalID: 4803077596708561149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orotile_9
+      rect:
+        serializedVersion: 2
+        x: 740
+        y: 1274
+        width: 185
+        height: 185
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 978a50c1b68631c60800000000000000
+      internalID: 7787682989894641785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orotile_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1089
+        width: 185
+        height: 185
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da8518eb7521e55c0800000000000000
+      internalID: -4224919232359343955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orotile_11
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 1089
+        width: 185
+        height: 185
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5412a5071e15e2900800000000000000
+      internalID: 661556223964488005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orotile_12
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 1089
+        width: 185
+        height: 185
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef1fd158528817f40800000000000000
+      internalID: 5724506296093110782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orotile_13
+      rect:
+        serializedVersion: 2
+        x: 555
+        y: 1089
+        width: 185
+        height: 185
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7375d05c226b6a050800000000000000
+      internalID: 5811532629619332919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orotile_14
+      rect:
+        serializedVersion: 2
+        x: 740
+        y: 1089
+        width: 185
+        height: 185
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0dfaf60161ec7c8a0800000000000000
+      internalID: -6284828160811880496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orotile_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 904
+        width: 185
+        height: 185
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0e0ca1bed1d52380800000000000000
+      internalID: -8996553926208909809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orotile_16
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 904
+        width: 185
+        height: 185
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 005c0f72ffccd13b0800000000000000
+      internalID: -5540046570337024768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orotile_17
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 904
+        width: 185
+        height: 185
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd4d19afc6ae42320800000000000000
+      internalID: 2532406644270290141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orotile_18
+      rect:
+        serializedVersion: 2
+        x: 555
+        y: 904
+        width: 185
+        height: 185
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29d4ea78d5b5a76f0800000000000000
+      internalID: -686135535954145902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orotile_19
+      rect:
+        serializedVersion: 2
+        x: 740
+        y: 904
+        width: 185
+        height: 185
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa7670b761b7d8d30800000000000000
+      internalID: 4435336544513386415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orotile_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 719
+        width: 185
+        height: 185
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 736f0b4dacbf74900800000000000000
+      internalID: 668779918258140727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orotile_21
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 719
+        width: 185
+        height: 185
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83671311f5ee74560800000000000000
+      internalID: 7298063813254936120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orotile_22
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 719
+        width: 185
+        height: 185
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef8dc174f47148980800000000000000
+      internalID: -8537673364324689666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orotile_23
+      rect:
+        serializedVersion: 2
+        x: 555
+        y: 719
+        width: 185
+        height: 185
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b925e76c9e66373c0800000000000000
+      internalID: -4363030459748298085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orotile_24
+      rect:
+        serializedVersion: 2
+        x: 740
+        y: 719
+        width: 185
+        height: 185
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8974b9b1686017c90800000000000000
+      internalID: -7173945558365943912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orotile_25
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 534
+        width: 185
+        height: 185
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1d5cdd70ac7e0c80800000000000000
+      internalID: -8354603229977486054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orotile_26
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 534
+        width: 185
+        height: 185
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab7e2cb4db5afaba0800000000000000
+      internalID: -6075455139861043270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orotile_27
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 534
+        width: 185
+        height: 185
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47b734c1ca07dc320800000000000000
+      internalID: 2579842046064032628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orotile_28
+      rect:
+        serializedVersion: 2
+        x: 555
+        y: 534
+        width: 185
+        height: 185
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f86a4de6e0a5e30f0800000000000000
+      internalID: -1135371038015314289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orotile_29
+      rect:
+        serializedVersion: 2
+        x: 740
+        y: 534
+        width: 185
+        height: 185
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45bc9335e1e5be590800000000000000
+      internalID: -7643912458192958636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orotile_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 349
+        width: 185
+        height: 185
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5adaa056f6574520800000000000000
+      internalID: 2686211318665108060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orotile_31
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 349
+        width: 185
+        height: 185
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4569765f26f94cc0800000000000000
+      internalID: -3726176533497682611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orotile_32
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 349
+        width: 185
+        height: 185
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eee55a285ac4d44c0800000000000000
+      internalID: -4301697795323765010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orotile_33
+      rect:
+        serializedVersion: 2
+        x: 555
+        y: 349
+        width: 185
+        height: 185
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed3d9bacd10a8e6f0800000000000000
+      internalID: -655097695966735394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orotile_34
+      rect:
+        serializedVersion: 2
+        x: 740
+        y: 349
+        width: 185
+        height: 185
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1b9afd49b7cdb9b0800000000000000
+      internalID: -5062670807403422946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orotile_35
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 164
+        width: 185
+        height: 185
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b3b16c08502180d0800000000000000
+      internalID: -3422418679287925833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orotile_36
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 164
+        width: 185
+        height: 185
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9dafadb1ae354b300800000000000000
+      internalID: 266930542876490457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orotile_37
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 164
+        width: 185
+        height: 185
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76ef9eac1973b3590800000000000000
+      internalID: -7693494439118242201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orotile_38
+      rect:
+        serializedVersion: 2
+        x: 555
+        y: 164
+        width: 185
+        height: 185
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e1cc8e52bc0b7440800000000000000
+      internalID: 4934551776944505314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orotile_39
+      rect:
+        serializedVersion: 2
+        x: 740
+        y: 164
+        width: 185
+        height: 185
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6a133c9d9258c710800000000000000
+      internalID: 1713710495098411629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

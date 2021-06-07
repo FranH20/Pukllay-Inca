@@ -23,10 +23,13 @@ public class PlayerController : MonoBehaviour
     public float velocitySalto;
     public bool EstadoMovimientoBara;
     private bool isCheckGround;
+    public bool CoodenadasActivas;
+    public Vector3 pj1Coordenadas;
 
     private Rigidbody2D rb;
     
     Animator anim;
+
 
 
     private void Awake(){ //primera funcion
@@ -53,7 +56,6 @@ public class PlayerController : MonoBehaviour
             movimiento =true;
             MovimientoPlayer();
             anim.SetBool("EstaCorriendo",movimiento);
-            
 
             }
             else if(Input.GetKey("a") || Input.GetKey("left")){
@@ -74,7 +76,7 @@ public class PlayerController : MonoBehaviour
             }
 
 
-
+            //verificar bara
             if(Input.GetKey("f") && PuntoActivoGlobal.obj.dentroRango){                
                 if(EstadoMovimientoBara==false){
                     EstadoMovimientoBara = true;
@@ -83,12 +85,19 @@ public class PlayerController : MonoBehaviour
                 
                 
             }
+            //elevar piedra ascensor
             if(Input.GetKey("r")){                
                 if(Elevador.obj.activarMovimiento ==false){
                     Elevador.obj.activarMovimiento = true;
                 }
                  
             }
+            //minijugo 1
+            if(Input.GetKey("g")){                
+               funcCambiarEscena("Game");//Game
+                 
+            }
+
 
             //-----------------------
             if(isCheckGround == false){
@@ -96,13 +105,23 @@ public class PlayerController : MonoBehaviour
                 //Debug.Log("piso");
             }
 
-
+            if(CoodenadasActivas){
+                pj1Coordenadas=transform.position;
+            }
 
 
 
         }
 
             
+    }
+
+    public void CambiarPosisionPlayer(Vector3 newPosition){
+        transform.position = newPosition;
+    }
+
+    public void funcCambiarEscena(string nombreEscena){
+        SceneManager.LoadScene(nombreEscena);
     }
 
     void MovimientoPlayer(){

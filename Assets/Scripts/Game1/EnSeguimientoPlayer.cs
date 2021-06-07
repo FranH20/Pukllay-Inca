@@ -28,6 +28,10 @@ public class EnSeguimientoPlayer : MonoBehaviour
     Animator anim;
 
 
+    public bool CoodenadasActivas;
+    public Vector3 pj1Coordenadas;
+
+
     private void Awake(){ //primera funcion
         obj = this;
     }
@@ -44,6 +48,9 @@ public class EnSeguimientoPlayer : MonoBehaviour
     void Update()
     {
         MovimientoPlayer();
+        if(CoodenadasActivas){
+            pj1Coordenadas=transform.position;
+        }
 
     }
 
@@ -120,6 +127,10 @@ public class EnSeguimientoPlayer : MonoBehaviour
 
 
      }
+
+     public void CambiarPosisionPlayer(Vector3 newPosition){
+        transform.position = newPosition;
+    }
 
 
 
