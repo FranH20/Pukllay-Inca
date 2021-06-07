@@ -7,6 +7,8 @@ public class ActivarPuente : MonoBehaviour
     public static ActivarPuente obj;
     public bool estadoPuente;
     public GameObject puen;
+    public AudioSource clip;    
+    private bool stadoMusic;
     
     void Awake(){
         obj = this;
@@ -18,6 +20,10 @@ public class ActivarPuente : MonoBehaviour
         if(estadoPuente){
             ActivarPiedras.estadoPiedras = false;
             puen.SetActive(true);
+            if(stadoMusic == false){
+                stadoMusic = true;
+                clip.Play();
+            }
            
         }else{
             puen.SetActive(false);

@@ -20,6 +20,8 @@ public class MoverBaston : MonoBehaviour
     private bool ActivarMovimiento2;
     private bool regresarPlayer;
     private float step;
+    public AudioSource clip;    
+    private bool stadoMusic;
 
     float x;
 
@@ -106,12 +108,19 @@ public class MoverBaston : MonoBehaviour
         Debug.Log("b");
         if(puntoActual == puntoActivarParticulas){
             Instantiate(Particulas1,Movimiento2Baras[puntoActual-1].position,transform.rotation);
+            if(stadoMusic == false){
+                stadoMusic = true;
+                clip.Play();
+            }
+            ActivarBackGoundF.activarMovimiento = true;
         }
         //Particulas1.SetActive(true);
         yield return new WaitForSeconds(2.3f);
         //Destroy(Particulas1,1.2f);
+        if(puntoActual == puntoActivarParticulas){
+            ActivarBackGoundF.activarMovimiento = true;
+        }
         regresarPlayer=true;
-        ActivarBackGoundF.activarMovimiento = true;
         StopCoroutine(EsperarTiempoBaraSuelo());
     }
 

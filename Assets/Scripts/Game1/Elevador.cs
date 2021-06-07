@@ -12,6 +12,10 @@ public class Elevador : MonoBehaviour
     public float speedMovimiento;
     private float step;
 
+
+    public AudioSource clip;    
+    private bool stadoMusic;
+
     private void Awake(){ //primera funcion
         obj = this;
     }
@@ -26,7 +30,21 @@ public class Elevador : MonoBehaviour
     {
         if(activarMovimiento){
             piedra.transform.position = Vector3.MoveTowards(piedra.transform.position, posicionMover.position, step);
+            if(stadoMusic == false){
+                stadoMusic = true;
+                clip.Play();
+            }
+            
         }
+
+        if(piedra.transform.position == posicionMover.position){
+            if(stadoMusic == true){
+                stadoMusic = false;
+                clip.Stop();
+            }
+        }
+
+
     }
 
     private void OnDestroy(){

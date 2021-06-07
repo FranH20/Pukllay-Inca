@@ -86,14 +86,14 @@ public class PlayerController : MonoBehaviour
                 
             }
             //elevar piedra ascensor
-            if(Input.GetKey("r")){                
+            if(Input.GetKey("r") && PuntoActivoGlobal.dentroRango_ascensor){                
                 if(Elevador.obj.activarMovimiento ==false){
                     Elevador.obj.activarMovimiento = true;
                 }
                  
             }
             //minijugo 1
-            if(Input.GetKey("g")){                
+            if(Input.GetKey("g") && PuntoActivoGlobal.dentroRango_Game){                
                funcCambiarEscena("Game");//Game
                  
             }

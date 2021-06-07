@@ -6,6 +6,8 @@ public class PuntoActivoGlobal : MonoBehaviour
 {
     public static PuntoActivoGlobal obj;
     public bool dentroRango;
+    public static bool dentroRango_Game;
+    public static bool dentroRango_ascensor;
     private void Awake(){ //primera funcion
         obj = this;
     }

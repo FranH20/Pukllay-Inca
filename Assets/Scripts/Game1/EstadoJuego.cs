@@ -8,6 +8,9 @@ public class EstadoJuego : MonoBehaviour
     public Vector3 coordenadasP2;
     private bool CambioScena;
     public bool Game1Completo;
+    public static bool activarNarra = true;
+
+
     void Awake(){
         if(obj_estadoJuego == null){
             obj_estadoJuego = this;
@@ -32,6 +35,8 @@ public class EstadoJuego : MonoBehaviour
             EnSeguimientoPlayer.obj.CambiarPosisionPlayer(coordenadasP2);
             if(Game1Completo){
                 ActivarPuente.obj.estadoPuente=true ;
+                //ActivarNarracion.narracion = false;
+                activarNarra = false;
             }
             CambioScena = false;
         }

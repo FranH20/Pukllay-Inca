@@ -49,6 +49,13 @@ public class DialogueManager : MonoBehaviour
     void OnTriggerEnter2D(Collider2D collision){
         if(collision.CompareTag("Player")){
             dialoguePanel.SetActive(true);
+            if(PuntoActivoGlobal.dentroRango_Game == false){
+                PuntoActivoGlobal.dentroRango_Game = true;
+            }
+            if(PuntoActivoGlobal.dentroRango_ascensor == false){
+                PuntoActivoGlobal.dentroRango_ascensor = true;
+            }
+
             StartDialogue();
         }
         
@@ -64,6 +71,12 @@ public class DialogueManager : MonoBehaviour
     void OnTriggerExit2D(Collider2D collision){
         if(collision.CompareTag("Player")){
             dialoguePanel.SetActive(false);
+            if(PuntoActivoGlobal.dentroRango_Game == true){
+                PuntoActivoGlobal.dentroRango_Game = false;
+            }
+            if(PuntoActivoGlobal.dentroRango_ascensor == true){
+                PuntoActivoGlobal.dentroRango_ascensor = false;
+            }
             StopAllCoroutines();
             
         }

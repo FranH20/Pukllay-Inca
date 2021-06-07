@@ -9,6 +9,9 @@ public class ActivarBackGoundF : MonoBehaviour
     public static bool activarMovimiento;
     public float speedMovimiento;
     private float step;
+
+    public AudioSource clip;    
+    private bool stadoMusic;
     void Start()
     {
         step = speedMovimiento * Time.deltaTime;
@@ -19,7 +22,21 @@ public class ActivarBackGoundF : MonoBehaviour
     {
         if(activarMovimiento){
             transform.position = Vector3.MoveTowards(transform.position, posicionMover.position, step);
+            if(stadoMusic == false){
+                stadoMusic = true;
+                clip.Play();
+            }
+
         }
+
+        if(transform.position == posicionMover.position){
+            if(stadoMusic == true){
+                //stadoMusic = false;
+                clip.Stop();
+            }
+        }
+
+
 
     }
 }
