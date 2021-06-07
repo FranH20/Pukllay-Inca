@@ -5947,7 +5947,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 982319585}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.5699993, y: 1.6, z: -10}
+  m_LocalPosition: {x: 1.5699992, y: 1.6, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -8192,7 +8192,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1575402532}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 1.5699993, y: 1.6, z: -10}
+  m_LocalPosition: {x: 1.5699992, y: 1.6, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1665854711}
@@ -11081,7 +11081,11 @@ MonoBehaviour:
       este encima de el.'
     - 'Manco Capac: Aunque con el tiempo que pase y ya no estemos en este mundo ,
       el puente dejara de estar en pie.'
-    - precione "G" para activar el miniJuego de contrucion puente
+    - 'Encontraras puntos de piedras situadas en ciertos puntos , para activar su
+      funcion precione "F" en esas areas.
+
+      (Ese piedra no es el caso).'
+    - precione "G" para activar el miniJuego de construcion puente
   dialoguePanel: {fileID: 254969485}
   displayText: {fileID: 276022847}
   typingSpeed: 0.05
